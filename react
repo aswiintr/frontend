@@ -1,5 +1,7 @@
 
-import { useState } from "react"; import logo from "./logo.svg"; import "/styles.css";
+import { useState } from "react"; 
+import logo from "./logo.svg";
+import "/styles.css";
 
 const navItems ["home", ...];
 
@@ -20,7 +22,7 @@ type="button"
 className="sidebar-burger"
 
 onClick={() =>setIsOpen(!isOpen)}
-
+>
 <span>
 
 (isopen ? "close" : "menu"}
@@ -38,7 +40,9 @@ onClick={() =>setIsOpen(!isOpen)}
 <span>{ttem)</span> <p>{item}</p>
 
 </button>
-
+}}}
 </nav>
 
 </div> </aside>
+};
+};

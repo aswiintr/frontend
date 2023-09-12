@@ -1,0 +1,34 @@
+styles . css */
+button {
+position: relative;
+overflow: hidden;
+transform: translateZ(0); display: flex;
+align-items : center;
+justify-content: center; gap: 12px;
+height: 72px;
+width: 200px;
+border: 0;
+border-radius: 10px;
+font-family: Poppins; font-size: 18px;
+font-weight: 500;
+text-align: left;
+background: #282828; color: #f9 f9 f9 ;
+cursor: pointer;
+white-space: nowrap;
+  styles.css */
+button: :before, button :tafter {
+content: "";
+display: block;
+position: absolute;
+bottom: 0;
+left: 0;
+width:100%;
+height: 4px;
+opacity: 0;
+transition: opacity 0.25s ; button::before {
+background: rgb(255 255 255 / 10%); }
+button::after {
+left: -100%;
+background: #34d297; }
+button.loading:is(::before, : :after ) opacity: 1;
+  
